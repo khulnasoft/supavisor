@@ -28,7 +28,7 @@ psql postgresql://postgres.dev_tenant:postgres@localhost:6543/postgres
 The subdomain of the SNI from the TLS handshake:
 
 ```
-dev_tenant.supabase.co
+dev_tenant.khulnasoft.co
 ```
 
 ## Options parameters

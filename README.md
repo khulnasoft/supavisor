@@ -76,8 +76,8 @@ supported ([todo](#future-work)).
 
 ## Docs
 
-- [Installation and usage](https://supabase.github.io/supavisor/development/installation/)
-- [Metrics](https://supabase.github.io/supavisor/monitoring/metrics/)
+- [Installation and usage](https://khulnasoft.github.io/supavisor/development/installation/)
+- [Metrics](https://khulnasoft.github.io/supavisor/monitoring/metrics/)
 
 ## Features
 

@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       docker_version: ${{ steps.settings.outputs.result }}
-      image_tag: supabase/supavisor:${{ steps.settings.outputs.result }}
+      image_tag: khulnasoft/supavisor:${{ steps.settings.outputs.result }}
     steps:
       - uses: actions/checkout@v3
       - id: settings

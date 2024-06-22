@@ -36,7 +36,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: akhilerm/tag-push-action@v2.1.0
         with:
-          src: docker.io/supabase/supavisor:${{ inputs.version }}
+          src: docker.io/khulnasoft/supavisor:${{ inputs.version }}
           dst: |
-            public.ecr.aws/supabase/supavisor:${{ inputs.version }}
-            ghcr.io/supabase/supavisor:${{ inputs.version }}
+            public.ecr.aws/khulnasoft/supavisor:${{ inputs.version }}
+            ghcr.io/khulnasoft/supavisor:${{ inputs.version }}

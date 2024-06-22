@@ -2,7 +2,7 @@ version: "3"
 
 services:
   db:
-    image: supabase/postgres:15.1.0.148
+    image: khulnasoft/postgres:11.12
     container_name: supavisor-db
     ports:
       - "6432:5432"
